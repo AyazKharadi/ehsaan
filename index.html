@@ -157,6 +157,19 @@
       <script src="assets/js/jquery-migrate.min.js"></script>
       <script src="assets/js/materialize.js"></script>
       <script src="assets/js/init.js"></script>
+
+  <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+			
+           
+               $.getJSON('data/category.json', function(jd) {
+             console.log(jd);
+               });
+            
+				
+         });
+      </script>
+   </head>
       <!-- == End Scripts == -->
       <div class="fixed-action-btn" style="bottom: 20px; right: 20px;">
          <a   id="up" class="btn-floating btn-small grey darken-4 waves-effect waves-light">
